@@ -6,20 +6,12 @@ field_game = [1, 2, 3,
               7, 8, 9]
 
 num = None
-
-
-print(field_game[0], field_game[1], field_game[2])
-print(field_game[3], field_game[4], field_game[5])
-print(field_game[6], field_game[7], field_game[8])
-print("\n")
-
-
-
-
-x = 1
-y = 2
 round = 1
 
+#print(field_game[0], field_game[1], field_game[2])
+#print(field_game[3], field_game[4], field_game[5])
+#print(field_game[6], field_game[7], field_game[8])
+print("\n")
 
 while round < 10:
     while round % 2 != 0:
@@ -142,7 +134,14 @@ while round < 10:
         else:
             break
 else:
-    print("it's tie")
+    if round == 20:
+        print("Thanks, for playing")
+    else:
+        print("it's tie")
+
+print(field_game[0], field_game[1], field_game[2])
+print(field_game[3], field_game[4], field_game[5])
+print(field_game[6], field_game[7], field_game[8])
 
 
 
