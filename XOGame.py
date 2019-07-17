@@ -8,6 +8,10 @@ field_game = [1, 2, 3,
 num = None
 round = 1
 
+# WELCOME
+
+print("WELCOME in X and O game !\n")
+
 # module for choose who is first player
 
 p1 = input("who is player 1: ")
@@ -152,13 +156,17 @@ while round < 10:
             break
 else:
     if round == 20:
-        print("Thanks, for playing!")
+        print(field_game[0], field_game[1], field_game[2])
+        print(field_game[3], field_game[4], field_game[5])
+        print(field_game[6], field_game[7], field_game[8])
+        print("\nThanks, for playing!")
     else:
-        print("it's tie")
+        print(field_game[0], field_game[1], field_game[2])
+        print(field_game[3], field_game[4], field_game[5])
+        print(field_game[6], field_game[7], field_game[8])
+        print("\nit's tie")
 
-print(field_game[0], field_game[1], field_game[2])
-print(field_game[3], field_game[4], field_game[5])
-print(field_game[6], field_game[7], field_game[8])
+
 
 
 
